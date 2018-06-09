@@ -9,8 +9,8 @@ setlocal nosmartindent
 
 " NOTE: for using `<left><del>` instead of `<BS>`, we should set the
 " `whichwrap` and `backspace` option 
-setlocal ww=b,s,<,>,[,]
-setlocal bs=indent,eol,start
+" setlocal ww=b,s,<,>,[,]
+" setlocal bs=indent,eol,start
 " NOTE: Fix del here, Does it have any sideeffects?
 
 if exists("g:riv_disable_del") && g:riv_disable_del != 1
